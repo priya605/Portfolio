@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd751fe6c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">resume</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, i'm<span> Priyadarshini</span> Sahoo<br>From Odisha</h1>
+            </div>
+        </div>
+    </div>
+    <!-- /*-----------------------------about-------------------*/-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png.jpg" alt="">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi, i am Priya,you will see everything about me</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span><br>Designing Web App</li>
+                        <li><span>CSS</span><br>Designing Web App</li>
+                        <li><span>Java Script</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024-current</span><br>Pursuing MCA at IGIT</li>
+                        <li><span>2022</span><br>Bsc. under Utkal University </li>
+                        <li><span>2019</span><br>HSE under Utkal University</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------portfolio--------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">
+                My Work
+            </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    
+                    <div class="layer">
+                        <h3>T0-Do List</h3>
+                        <p>This will show a To-Do aapp that enables a user to add daily tasks.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>This shows a personal portfolio with the basic skills in CSS and HTML and javascript.</p>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+    <!--------------------contact---------------- -->
+    <div id="resume">
+        <button class="download-btn">
+            <span class="text">See my resume</span>
+        </button>
+        <script src="script.js"></script>
+    </div>
+  
+</body>
+</html>
